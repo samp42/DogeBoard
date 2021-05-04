@@ -6453,6 +6453,152 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SamuelLibrary">
+<packages>
+<package name="HDRVR40W64P254_2X20_5080X508X850B" urn="urn:adsk.eagle:footprint:28479744/1">
+<description>Double-row, 40-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 50.80 X 5.08 X 8.50 mm body
+&lt;p&gt;Double-row (2X20), 40-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 50.80 X 5.08 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<wire x1="49.53" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="49.53" y2="1.27" width="0.12" layer="21"/>
+<wire x1="49.53" y1="1.27" x2="49.53" y2="-3.81" width="0.12" layer="21"/>
+<wire x1="49.53" y1="-3.81" x2="-1.27" y2="-3.81" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="1.27" width="0.12" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="49.53" y2="1.27" width="0.12" layer="51"/>
+<wire x1="49.53" y1="1.27" x2="49.53" y2="-3.81" width="0.12" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="3" x="5.08" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="4" x="7.62" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="5" x="10.16" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="6" x="12.7" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="7" x="15.24" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="8" x="17.78" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="9" x="20.32" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="10" x="22.86" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="11" x="25.4" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="12" x="27.94" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="13" x="30.48" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="14" x="33.02" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="15" x="35.56" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="16" x="38.1" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="17" x="40.64" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="18" x="43.18" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="19" x="45.72" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="20" x="48.26" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="21" x="48.26" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="22" x="45.72" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="23" x="43.18" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="24" x="40.64" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="25" x="38.1" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="26" x="35.56" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="27" x="33.02" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="28" x="30.48" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="29" x="27.94" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="30" x="25.4" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="31" x="22.86" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="32" x="20.32" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="33" x="17.78" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="34" x="15.24" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="35" x="12.7" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="36" x="10.16" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="37" x="7.62" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="38" x="5.08" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="39" x="2.54" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<pad name="40" x="0" y="-2.54" drill="1.1051" diameter="1.7051"/>
+<text x="0" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.445" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFN50P400X400X90-20N" urn="urn:adsk.eagle:footprint:28479870/1">
+<description>20-QFN, 0.50 mm pitch, 4.00 X 4.00 X 0.90 mm body
+&lt;p&gt;20-pin QFN package with 0.50 mm pitch with body size 4.00 X 4.00 X 0.90 mm&lt;/p&gt;</description>
+<circle x="-2.504" y="1.636" radius="0.25" width="0" layer="21"/>
+<wire x1="-2" y1="1.386" x2="-2" y2="2" width="0.12" layer="21"/>
+<wire x1="-2" y1="2" x2="-1.386" y2="2" width="0.12" layer="21"/>
+<wire x1="2" y1="1.386" x2="2" y2="2" width="0.12" layer="21"/>
+<wire x1="2" y1="2" x2="1.386" y2="2" width="0.12" layer="21"/>
+<wire x1="2" y1="-1.386" x2="2" y2="-2" width="0.12" layer="21"/>
+<wire x1="2" y1="-2" x2="1.386" y2="-2" width="0.12" layer="21"/>
+<wire x1="-2" y1="-1.386" x2="-2" y2="-2" width="0.12" layer="21"/>
+<wire x1="-2" y1="-2" x2="-1.386" y2="-2" width="0.12" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.12" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.12" layer="51"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.12" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.12" layer="51"/>
+<smd name="1" x="-1.9373" y="1" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="2" x="-1.9373" y="0.5" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="3" x="-1.9373" y="0" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="4" x="-1.9373" y="-0.5" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="5" x="-1.9373" y="-1" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="6" x="-1" y="-1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-0.5" y="-1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="0" y="-1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="0.5" y="-1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="1" y="-1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="1.9373" y="-1" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="12" x="1.9373" y="-0.5" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="13" x="1.9373" y="0" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="14" x="1.9373" y="0.5" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="15" x="1.9373" y="1" dx="0.8373" dy="0.264" layer="1" roundness="100"/>
+<smd name="16" x="1" y="1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="0.5" y="1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="18" x="0" y="1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="19" x="-0.5" y="1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="-1" y="1.9373" dx="0.8373" dy="0.264" layer="1" roundness="100" rot="R90"/>
+<text x="0" y="2.9909" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.9909" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="HDRVR40W64P254_2X20_5080X508X850B" urn="urn:adsk.eagle:package:28479732/1" type="model">
+<description>Double-row, 40-pin Receptacle Header (Female) Straight, 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 8.50 mm insulator length, 50.80 X 5.08 X 8.50 mm body
+&lt;p&gt;Double-row (2X20), 40-pin Receptacle Header (Female) Straight package with 2.54 mm (0.10 in) row pitch, 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 8.50 mm insulator length with overall size 50.80 X 5.08 X 8.50 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HDRVR40W64P254_2X20_5080X508X850B"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN50P400X400X90-20N" urn="urn:adsk.eagle:package:28479864/1" type="model">
+<description>20-QFN, 0.50 mm pitch, 4.00 X 4.00 X 0.90 mm body
+&lt;p&gt;20-pin QFN package with 0.50 mm pitch with body size 4.00 X 4.00 X 0.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="QFN50P400X400X90-20N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+</symbols>
+<devicesets>
+<deviceset name="2X20_FEMALE_HEADER_PIN">
+<gates>
+</gates>
+<devices>
+<device name="V1" package="HDRVR40W64P254_2X20_5080X508X850B">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2515-QFN">
+<gates>
+</gates>
+<devices>
+<device name="V1" package="QFN50P400X400X90-20N">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28479864/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6462,6 +6608,108 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<modules>
+<module name="PWR" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="CAN" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="PI" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="LEDS" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+<module name="ADC" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+</modules>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="BUCK1" library="DogeBoardLib" deviceset="MP2331HGTL-P" device=""/>
@@ -6473,6 +6721,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="604k"/>
 <part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="1n"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="1µ"/>
+<part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="6.8n"/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20"/>
+<part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U$1" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+<part name="U$2" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+<part name="U$3" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+<part name="U$4" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+<part name="U$5" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
+<part name="U$6" library="SamuelLibrary" deviceset="MCP2515-QFN" device="V1" package3d_urn="urn:adsk.eagle:package:28479864/1"/>
+<part name="U$7" library="SamuelLibrary" deviceset="MCP2515-QFN" device="V1" package3d_urn="urn:adsk.eagle:package:28479864/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -6517,6 +6776,21 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="SUPPLY4" gate="GND" x="53.34" y="175.26" smashed="yes">
 <attribute name="VALUE" x="51.435" y="172.085" size="1.778" layer="96"/>
 </instance>
+<instance part="C3" gate="G$1" x="109.22" y="152.4" smashed="yes">
+<attribute name="NAME" x="110.744" y="152.781" size="1.778" layer="95"/>
+<attribute name="VALUE" x="110.744" y="147.701" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="119.38" y="157.48" smashed="yes">
+<attribute name="NAME" x="120.904" y="157.861" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.904" y="152.781" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="101.6" y="157.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="105.41" y="155.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="105.41" y="160.782" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="119.38" y="149.86" smashed="yes">
+<attribute name="VALUE" x="117.475" y="146.685" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6542,6 +6816,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="58.42" y1="180.34" x2="53.34" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="180.34" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -6582,6 +6860,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="60.96" y1="165.1" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="165.1" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="BUCK1" gate="A" pin="BST"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="157.48" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="BUCK1" gate="A" pin="SS"/>
+<wire x1="96.52" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="162.56" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
