@@ -7198,7 +7198,7 @@ By using any of these models, you agree that this information has been provided 
 <part name="PWM1" library="SamuelLibrary" deviceset="3X1_MALE_HEADER_PIN" device="" package3d_urn="urn:adsk.eagle:package:28584711/1"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R19" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
-<part name="R22" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
+<part name="R20" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
@@ -7471,7 +7471,7 @@ By using any of these models, you agree that this information has been provided 
 <attribute name="VALUE" x="352.6028" y="73.7362" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="360.2228" y="73.3044" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 </instance>
-<instance part="R22" gate="A" x="358.14" y="53.34" smashed="yes" rot="R270">
+<instance part="R20" gate="A" x="358.14" y="53.34" smashed="yes" rot="R270">
 <attribute name="VALUE" x="352.6028" y="61.0362" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="360.2228" y="60.6044" size="3.4798" layer="95" ratio="10" rot="SR270"/>
 </instance>
@@ -7601,7 +7601,7 @@ By using any of these models, you agree that this information has been provided 
 <wire x1="330.2" y1="45.72" x2="345.44" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <wire x1="345.44" y1="45.72" x2="345.44" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="R22" gate="A" pin="1"/>
+<pinref part="R20" gate="A" pin="1"/>
 <wire x1="345.44" y1="45.72" x2="358.14" y2="45.72" width="0.1524" layer="91"/>
 <junction x="345.44" y="45.72"/>
 </segment>
@@ -8149,7 +8149,7 @@ By using any of these models, you agree that this information has been provided 
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="R22" gate="A" pin="2"/>
+<pinref part="R20" gate="A" pin="2"/>
 <pinref part="R19" gate="A" pin="1"/>
 </segment>
 </net>
