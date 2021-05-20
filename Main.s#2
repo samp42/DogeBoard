@@ -7210,7 +7210,7 @@ By using any of these models, you agree that this information has been provided 
 <text x="190.5" y="190.5" size="5.08" layer="91">GPIO</text>
 <text x="304.8" y="83.82" size="5.08" layer="91">PWM</text>
 <text x="182.88" y="86.36" size="5.08" layer="91">AI</text>
-<text x="78.74" y="86.36" size="5.08" layer="91">CAN</text>
+<text x="78.74" y="106.68" size="5.08" layer="91">CAN</text>
 </plain>
 <instances>
 <instance part="BUCK1" gate="A" x="63.5" y="226.06" smashed="yes">
@@ -7260,9 +7260,9 @@ By using any of these models, you agree that this information has been provided 
 <instance part="SUPPLY5" gate="GND" x="124.46" y="210.82" smashed="yes">
 <attribute name="VALUE" x="122.555" y="207.645" size="1.778" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="86.36" y="48.26" smashed="yes">
-<attribute name="NAME" x="68.58" y="66.04" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.58" y="27.94" size="1.778" layer="96"/>
+<instance part="U$4" gate="G$1" x="86.36" y="53.34" smashed="yes">
+<attribute name="NAME" x="68.58" y="71.12" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.58" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="GPIO" gate="G$1" x="198.12" y="157.48" smashed="yes">
 <attribute name="NAME" x="190.5" y="182.88" size="1.778" layer="95"/>

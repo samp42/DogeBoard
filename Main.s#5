@@ -6980,13 +6980,6 @@ By using any of these models, you agree that this information has been provided 
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="V+" urn="urn:adsk.eagle:symbol:26939/1" library_version="1">
-<wire x1="0.889" y1="-1.27" x2="0" y2="0.127" width="0.254" layer="94"/>
-<wire x1="0" y1="0.127" x2="-0.889" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="-1.27" x2="0.889" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="V+" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
@@ -7006,19 +6999,6 @@ By using any of these models, you agree that this information has been provided 
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="V+" urn="urn:adsk.eagle:component:26966/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="V+" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -7148,12 +7128,12 @@ By using any of these models, you agree that this information has been provided 
 <part name="C2" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="0.1µ"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="604k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="604k"/>
 <part name="C7" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="1n"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C3" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="1µ"/>
 <part name="C4" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2.5/2" package3d_urn="urn:adsk.eagle:package:5415/1" value="6.8n"/>
-<part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="20"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$4" library="SamuelLibrary" deviceset="MCP2515-QFN" device="" package3d_urn="urn:adsk.eagle:package:28576790/1"/>
 <part name="GPIO" library="SamuelLibrary" deviceset="2X20_FEMALE_HEADER_PIN" device="V1" package3d_urn="urn:adsk.eagle:package:28479732/1"/>
@@ -7213,12 +7193,10 @@ By using any of these models, you agree that this information has been provided 
 <part name="R16" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="PWM0" library="SamuelLibrary" deviceset="3X1_MALE_HEADER_PIN" device="" package3d_urn="urn:adsk.eagle:package:28584711/1"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R17" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="R18" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="PWM1" library="SamuelLibrary" deviceset="3X1_MALE_HEADER_PIN" device="" package3d_urn="urn:adsk.eagle:package:28584711/1"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="R19" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="R22" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -7256,7 +7234,7 @@ By using any of these models, you agree that this information has been provided 
 <instance part="SUPPLY3" gate="GND" x="25.4" y="220.98" smashed="yes">
 <attribute name="VALUE" x="23.495" y="217.805" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="38.1" y="238.76" smashed="yes" rot="R180">
+<instance part="R24" gate="G$1" x="38.1" y="238.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="41.91" y="237.2614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="41.91" y="242.062" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7275,7 +7253,7 @@ By using any of these models, you agree that this information has been provided 
 <attribute name="NAME" x="125.984" y="218.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="125.984" y="213.741" size="1.778" layer="96"/>
 </instance>
-<instance part="R21" gate="G$1" x="106.68" y="218.44" smashed="yes" rot="R180">
+<instance part="R23" gate="G$1" x="106.68" y="218.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.49" y="216.9414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="110.49" y="221.742" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -7475,9 +7453,6 @@ By using any of these models, you agree that this information has been provided 
 <instance part="SUPPLY6" gate="GND" x="294.64" y="35.56" smashed="yes">
 <attribute name="VALUE" x="292.735" y="32.385" size="1.778" layer="96"/>
 </instance>
-<instance part="P+11" gate="1" x="271.78" y="68.58" smashed="yes">
-<attribute name="VALUE" x="269.24" y="66.04" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R17" gate="A" x="307.34" y="66.04" smashed="yes" rot="R270">
 <attribute name="VALUE" x="301.8028" y="73.7362" size="3.4798" layer="96" ratio="10" rot="SR270"/>
 <attribute name="NAME" x="309.4228" y="73.3044" size="3.4798" layer="95" ratio="10" rot="SR270"/>
@@ -7491,9 +7466,6 @@ By using any of these models, you agree that this information has been provided 
 </instance>
 <instance part="SUPPLY8" gate="GND" x="345.44" y="35.56" smashed="yes">
 <attribute name="VALUE" x="343.535" y="32.385" size="1.778" layer="96"/>
-</instance>
-<instance part="P+10" gate="1" x="322.58" y="68.58" smashed="yes">
-<attribute name="VALUE" x="320.04" y="66.04" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="A" x="358.14" y="66.04" smashed="yes" rot="R270">
 <attribute name="VALUE" x="352.6028" y="73.7362" size="3.4798" layer="96" ratio="10" rot="SR270"/>
@@ -7650,7 +7622,7 @@ By using any of these models, you agree that this information has been provided 
 <junction x="25.4" y="231.14"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="38.1" y="231.14"/>
-<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="238.76" x2="30.48" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="238.76" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
 <junction x="30.48" y="231.14"/>
@@ -7662,7 +7634,7 @@ By using any of these models, you agree that this information has been provided 
 </net>
 <net name="EN" class="0">
 <segment>
-<pinref part="R20" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="238.76" x2="45.72" y2="238.76" width="0.1524" layer="91"/>
 <label x="43.18" y="238.76" size="1.778" layer="95"/>
 </segment>
@@ -7684,12 +7656,12 @@ By using any of these models, you agree that this information has been provided 
 <net name="N$1" class="0">
 <segment>
 <pinref part="BUCK1" gate="A" pin="BST"/>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="218.44" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="218.44" x2="114.3" y2="215.9" width="0.1524" layer="91"/>
@@ -8165,18 +8137,14 @@ By using any of these models, you agree that this information has been provided 
 <segment>
 <pinref part="PWM0" gate="G$1" pin="2"/>
 <wire x1="287.02" y1="60.96" x2="271.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="60.96" x2="271.78" y2="66.04" width="0.1524" layer="91"/>
 <label x="271.78" y="60.96" size="1.778" layer="95"/>
 <label x="271.78" y="60.96" size="1.778" layer="95"/>
-<pinref part="P+11" gate="1" pin="V+"/>
 </segment>
 <segment>
 <pinref part="PWM1" gate="G$1" pin="2"/>
 <wire x1="337.82" y1="60.96" x2="322.58" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="322.58" y1="60.96" x2="322.58" y2="66.04" width="0.1524" layer="91"/>
 <label x="322.58" y="60.96" size="1.778" layer="95"/>
 <label x="322.58" y="60.96" size="1.778" layer="95"/>
-<pinref part="P+10" gate="1" pin="V+"/>
 </segment>
 </net>
 <net name="N$49" class="0">

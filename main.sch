@@ -6532,6 +6532,20 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="1.27" y="2.659" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="1.27" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="CAPC4020X56N" urn="urn:adsk.eagle:footprint:28904602/1">
+<description>Chip, 4.00 X 2.00 X 0.56 mm body
+&lt;p&gt;Chip package with body size 4.00 X 2.00 X 0.56 mm&lt;/p&gt;</description>
+<wire x1="2" y1="1.3699" x2="-2" y2="1.3699" width="0.12" layer="21"/>
+<wire x1="2" y1="-1.3699" x2="-2" y2="-1.3699" width="0.12" layer="21"/>
+<wire x1="2" y1="-1" x2="-2" y2="-1" width="0.12" layer="51"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.12" layer="51"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.12" layer="51"/>
+<wire x1="2" y1="1" x2="2" y2="-1" width="0.12" layer="51"/>
+<smd name="1" x="-2.007" y="0" dx="0.7978" dy="2.1118" layer="1" roundness="40"/>
+<smd name="2" x="2.007" y="0" dx="0.7978" dy="2.1118" layer="1" roundness="40"/>
+<text x="0" y="2.0049" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.0049" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFN50P400X400X90-21T270N" urn="urn:adsk.eagle:package:28576790/1" type="model">
@@ -6560,6 +6574,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 &lt;p&gt;Single-row (1X3), 3-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 7.62 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="HDRV3W64P254_1X3_762X254X838B"/>
+</packageinstances>
+</package3d>
+<package3d name="CAPC4020X56N" urn="urn:adsk.eagle:package:28904593/1" type="model">
+<description>Chip, 4.00 X 2.00 X 0.56 mm body
+&lt;p&gt;Chip package with body size 4.00 X 2.00 X 0.56 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CAPC4020X56N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6659,6 +6680,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pin name="2" x="-7.62" y="0" length="middle"/>
 <pin name="3" x="-7.62" y="-2.54" length="middle"/>
 <text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="CAPACITOR">
+<wire x1="-0.635" y1="1.905" x2="-0.635" y2="-1.905" width="0.508" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="0.635" y2="-1.905" width="0.508" layer="94"/>
+<pin name="L1" x="-3.175" y="0" visible="off" length="short"/>
+<pin name="L2" x="3.175" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6790,6 +6819,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28584711/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0402_CAPACITOR">
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC4020X56N">
+<connects>
+<connect gate="G$1" pin="L1" pad="2"/>
+<connect gate="G$1" pin="L2" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:28904593/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -7201,6 +7249,8 @@ By using any of these models, you agree that this information has been provided 
 <part name="R20" library="Resistors" library_urn="urn:adsk.eagle:library:14809352" deviceset="1-2176053-4" device="" package3d_urn="urn:adsk.eagle:package:14809370/2" value="20k"/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="C10" library="SamuelLibrary" deviceset="0402_CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:28904593/1" value="22pf"/>
+<part name="C11" library="SamuelLibrary" deviceset="0402_CAPACITOR" device="" package3d_urn="urn:adsk.eagle:package:28904593/1" value="22pf"/>
 </parts>
 <sheets>
 <sheet>
@@ -7480,6 +7530,14 @@ By using any of these models, you agree that this information has been provided 
 </instance>
 <instance part="+3V10" gate="G$1" x="289.56" y="233.68" smashed="yes">
 <attribute name="VALUE" x="287.02" y="228.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C10" gate="G$1" x="68.58" y="25.4" smashed="yes">
+<attribute name="NAME" x="66.04" y="27.94" size="1.27" layer="95"/>
+<attribute name="VALUE" x="66.04" y="21.59" size="1.27" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="68.58" y="12.7" smashed="yes">
+<attribute name="NAME" x="66.04" y="15.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="66.04" y="8.89" size="1.27" layer="96"/>
 </instance>
 </instances>
 <busses>
