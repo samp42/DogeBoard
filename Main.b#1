@@ -1425,6 +1425,12 @@ design rules under a new name.</description>
 <signal name="N$22">
 <contactref element="GPIO" pad="23"/>
 </signal>
+<signal name="N$23">
+<contactref element="GPIO" pad="22"/>
+</signal>
+<signal name="N$24">
+<contactref element="GPIO" pad="21"/>
+</signal>
 <signal name="+3V3">
 <contactref element="GPIO" pad="1"/>
 <contactref element="GPIO" pad="9"/>
@@ -1502,6 +1508,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$42">
 <contactref element="GPIO" pad="18"/>
+</signal>
+<signal name="N$43">
+<contactref element="GPIO" pad="19"/>
 </signal>
 <signal name="DIO0">
 <contactref element="DIO0" pad="1"/>
@@ -1833,8 +1842,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWR">
 <contactref element="R31" pad="1"/>
-<contactref element="GPIO" pad="21"/>
-<wire x1="75.771" y1="100.84" x2="92.3399" y2="118.98" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="R32" pad="2"/>
@@ -1847,13 +1854,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="COMM_GRN">
 <contactref element="COMM" pad="4"/>
-<contactref element="GPIO" pad="22"/>
-<wire x1="75.771" y1="98.3" x2="96.266" y2="109.479" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="COMM_RED">
 <contactref element="COMM" pad="3"/>
-<contactref element="GPIO" pad="19"/>
-<wire x1="73.231" y1="98.3" x2="96.266" y2="108.479" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AN_SCLK">
 <contactref element="ADC124S051" pad="6"/>
