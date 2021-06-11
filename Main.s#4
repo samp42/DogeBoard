@@ -2701,23 +2701,23 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="LAST_DATE_TIME" x="745.49" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="758.825" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="D1" gate="G$1" x="528.32" y="190.5" smashed="yes">
-<attribute name="NAME" x="529.248" y="194.664" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="529.588" y="186.485" size="1.778" layer="96" align="bottom-center"/>
+<instance part="D1" gate="G$1" x="515.62" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="511.456" y="201.588" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="519.635" y="201.928" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="D2" gate="G$1" x="515.62" y="190.5" smashed="yes">
-<attribute name="NAME" x="516.548" y="194.664" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="516.888" y="186.485" size="1.778" layer="96" align="bottom-center"/>
+<instance part="D2" gate="G$1" x="515.62" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="511.456" y="191.428" size="1.778" layer="95" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="519.635" y="191.768" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="R32" gate="G$1" x="543.56" y="190.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="540.385" y="192.7225" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="545.7825" y="192.7225" size="1.778" layer="96" rot="R90"/>
+<instance part="R32" gate="G$1" x="515.62" y="213.36" smashed="yes">
+<attribute name="NAME" x="517.8425" y="216.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="517.8425" y="211.1375" size="1.778" layer="96"/>
 </instance>
 <instance part="M2" gate="A" x="505.46" y="144.78" smashed="yes">
 <attribute name="NAME" x="508" y="149.86" size="1.778" layer="95"/>
 </instance>
-<instance part="P+17" gate="1" x="556.26" y="203.2" smashed="yes">
-<attribute name="VALUE" x="553.72" y="203.2" size="1.778" layer="96" rot="R180"/>
+<instance part="P+17" gate="1" x="515.62" y="226.06" smashed="yes">
+<attribute name="VALUE" x="513.08" y="226.06" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY40" gate="GND" x="505.46" y="124.46" smashed="yes">
 <attribute name="VALUE" x="503.555" y="121.285" size="1.778" layer="96"/>
@@ -3418,10 +3418,9 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="P$1"/>
-<wire x1="556.26" y1="190.5" x2="556.26" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="548.64" y1="190.5" x2="556.26" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="218.44" x2="515.62" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="P+17" gate="1" pin="+5V"/>
+<pinref part="R32" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="PWM0" class="0">
@@ -3956,21 +3955,12 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="D1" gate="G$1" pin="_"/>
 <pinref part="D2" gate="G$1" pin="+"/>
-<wire x1="525.78" y1="190.5" x2="520.7" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="D1" gate="G$1" pin="+"/>
-<pinref part="R32" gate="G$1" pin="P$2"/>
-<wire x1="533.4" y1="190.5" x2="538.48" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="198.12" x2="515.62" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="D2" gate="G$1" pin="_"/>
-<wire x1="513.08" y1="190.5" x2="505.46" y2="190.5" width="0.1524" layer="91"/>
-<wire x1="505.46" y1="190.5" x2="505.46" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="505.46" y1="160.02" x2="505.46" y2="151.13" width="0.1524" layer="91"/>
 <wire x1="505.46" y1="151.13" x2="505.46" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="M2" gate="A" pin="P$1"/>
 <junction x="505.46" y="151.13"/>
@@ -3997,6 +3987,13 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GPIO" gate="G$1" pin="30"/>
 <wire x1="215.9" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <label x="218.44" y="132.08" size="1.778" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="+"/>
+<pinref part="R32" gate="G$1" pin="P$1"/>
+<wire x1="515.62" y1="208.28" x2="515.62" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

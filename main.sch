@@ -591,6 +591,28 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="4.1655" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="CTF020V8">
+<description>Single-row, 2-pin Pin Header (Male) Straight, 2.54 mm (0.10 in) col pitch, 5.84 mm mating length, 5.08 X 2.54 X 8.38 mm body
+&lt;p&gt;Single-row (1X2), 2-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 5.08 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
+<circle x="0" y="1.774" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.1051" diameter="1.7051"/>
+<pad name="2" x="2.54" y="0" drill="1.1051" diameter="1.7051"/>
+<text x="1.31" y="4.019" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="0.1" y1="-4.8" x2="5.05" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="6.3" x2="5.05" y2="6.3" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="2.9" x2="-2.05" y2="6.3" width="0.127" layer="21"/>
+<wire x1="5.05" y1="6.3" x2="5.05" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="2.9" x2="-2.05" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-2.9" x2="-2.05" y2="-2.9" width="0.127" layer="21"/>
+<wire x1="5.06" y1="2.9" x2="9.44" y2="2.9" width="0.127" layer="21"/>
+<wire x1="9.44" y1="-2.9" x2="5.05" y2="-2.9" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="-2.9" x2="-2.05" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-2.05" y1="-4.8" x2="0.13" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="5.05" y1="-2.9" x2="5.05" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="9.44" y1="0.24" x2="9.44" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="-2.9" x2="-6.9" y2="2.9" width="0.127" layer="21"/>
+<wire x1="9.44" y1="0.23" x2="9.44" y2="-2.9" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="QFN50P400X400X90-21T270N" urn="urn:adsk.eagle:package:28576790/1" type="model">
@@ -1820,6 +1842,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WL-SMCD/"&gt;https
 </device>
 </devices>
 </deviceset>
+<deviceset name="CTF020V8">
+<gates>
+<gate name="G$1" symbol="2X1_MALE_HEADER_PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CTF020V8">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="frames" urn="urn:adsk.eagle:library:229">
@@ -2167,7 +2205,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R29" library="SamuelLibrary" deviceset="0603_RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:28923673/1" value="120"/>
 <part name="M1" library="SamuelLibrary" deviceset="MOSFET" device="" package3d_urn="urn:adsk.eagle:package:29090892/1"/>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="VIN" library="SamuelLibrary" deviceset="2X1_MALE_HEADER_PIN" device="" package3d_urn="urn:adsk.eagle:package:29048268/1"/>
 <part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="COMM" library="SamuelLibrary" deviceset="WL-SBCC_0603" device="" package3d_urn="urn:adsk.eagle:package:19028034/3" technology="_150060RV75240"/>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -2208,6 +2245,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="D10" library="SamuelLibrary" deviceset="WL-SMCD_0603" device="" package3d_urn="urn:adsk.eagle:package:19028206/2" technology="_150060VS55040"/>
 <part name="R36" library="SamuelLibrary" deviceset="0603_RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:28923673/1" value="49.9"/>
 <part name="P+21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="VIN" library="SamuelLibrary" deviceset="CTF020V8" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2664,9 +2702,6 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY39" gate="GND" x="109.22" y="134.62" smashed="yes">
 <attribute name="VALUE" x="107.315" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="VIN" gate="G$1" x="30.48" y="203.2" smashed="yes">
-<attribute name="NAME" x="27.94" y="208.28" size="1.27" layer="95"/>
-</instance>
 <instance part="SUPPLY41" gate="GND" x="12.7" y="193.04" smashed="yes">
 <attribute name="VALUE" x="10.795" y="189.865" size="1.778" layer="96"/>
 </instance>
@@ -2812,6 +2847,9 @@ DIN A3, landscape with location and doc. field</description>
 </instance>
 <instance part="P+21" gate="1" x="525.78" y="203.2" smashed="yes">
 <attribute name="VALUE" x="523.24" y="203.2" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="VIN" gate="G$1" x="30.48" y="203.2" smashed="yes">
+<attribute name="NAME" x="27.94" y="208.28" size="1.27" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -3068,10 +3106,10 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="SUPPLY39" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="VIN" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="200.66" x2="12.7" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="200.66" x2="12.7" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="SUPPLY41" gate="GND" pin="GND"/>
+<pinref part="VIN" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="P$1"/>
@@ -3879,9 +3917,9 @@ DIN A3, landscape with location and doc. field</description>
 <label x="83.82" y="172.72" size="1.778" layer="91"/>
 </segment>
 <segment>
-<pinref part="VIN" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="205.74" x2="12.7" y2="205.74" width="0.1524" layer="91"/>
 <label x="12.7" y="205.74" size="1.778" layer="91"/>
+<pinref part="VIN" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
